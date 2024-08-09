@@ -8,12 +8,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:h504_http_istekleri/main.dart';
+import 'package:h505_cok_sayfali_uygulamalar/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(Menum());
+    await tester.pumpWidget(const GirisSayfam());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
