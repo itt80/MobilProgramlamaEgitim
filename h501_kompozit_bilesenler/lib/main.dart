@@ -36,93 +36,28 @@ class MyHomePage extends StatelessWidget {
           yol: "assets/resimler/armut.jpg",
           renk: Colors.purple,
           renk2: Colors.purpleAccent,
-          isim: "Armut"
-      ),
+          isim: "Armut"),
       ResimKutusu(
           yol: "assets/resimler/erik.jpg",
           renk: Colors.red,
           renk2: Colors.white,
-          isim: "Erik"
-      ),
+          isim: "Erik"),
       ResimKutusu(
           yol: "assets/resimler/karpuz.jpg",
-          renk: Colors.purple,
-          renk2: Colors.purpleAccent,
-          isim: "Karpuz"
-      ),
+          renk: Colors.red,
+          renk2: Colors.yellow,
+          isim: "Karpuz"),
       ResimKutusu(
           yol: "assets/resimler/kavun.jpg",
-          renk: Colors.purple,
-          renk2: Colors.purpleAccent,
-          isim: "Kavun"
-      ),
+          renk: Colors.yellow,
+          renk2: Colors.blue,
+          isim: "Kavun"),
       ResimKutusu(
           yol: "assets/resimler/limon.jpg",
           renk: Colors.purple,
           renk2: Colors.purpleAccent,
-          isim: "Limon"
-      ),
+          isim: "Limon"),
+     
     ]);
   }
 }
-
-
-Row(
-   Column(children: [
-      Container(
-        width: 200,
-        height: 200,
-        padding: const EdgeInsets.all(15),
-        margin: const EdgeInsets.all(15),
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [renk, renk2],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
-          borderRadius: BorderRadius.circular(15),
-        ),
-        child: Image.asset(yol),
-      ),
-      
-      Text(isim),
-    ]),
-     Column(children: [
-      Container(
-        width: 200,
-        height: 200,
-        padding: const EdgeInsets.all(15),
-        margin: const EdgeInsets.all(15),
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [renk, renk2],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
-          borderRadius: BorderRadius.circular(15),
-        ),
-        child: Image.asset(yol),
-      ),
-      
-      Text(isim),
-    ]),
-     Column(children: [
-      Container(
-        width: 200,
-        height: 200,
-        padding: const EdgeInsets.all(15),
-        margin: const EdgeInsets.all(15),
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [renk, renk2],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
-          borderRadius: BorderRadius.circular(15),
-        ),
-        child: Image.asset(yol),
-      ),
-      
-      Text(isim),
-    ]);
-)
