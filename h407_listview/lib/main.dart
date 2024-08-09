@@ -43,6 +43,7 @@ class MyApp extends StatelessWidget {
           );
         });
 
+    // ignore: unused_local_variable
     var listView1 = ListView(
       
       padding: const EdgeInsets.all(8),
